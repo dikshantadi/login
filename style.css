@@ -1,0 +1,72 @@
+body{
+    background-image: url(sunset.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0;
+
+}
+
+p {
+    position: relative;
+    color: black;
+    font-family:cursive;
+    font-size: 20px;
+    left: 5px;
+}
+
+.Topheader{
+    font-size: 30px;
+    position:relative;
+    font-family: cursive;
+
+}
+
+.Form{
+    display: flex;
+    position: relative;
+    padding: 80px;
+    width: 400px;
+    height: 450px;
+    justify-content: center;
+    border: 2px solid black;
+    backdrop-filter: blur(4px);
+}
+
+.Formcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Inputtext{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    opacity: 90%;
+}
+::-webkit-input-placeholder{
+    color: blue;
+}
+ i{
+    position: relative;
+    top: -30px;
+    right: 20px;
+ }
+
+#submitbot{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: azure;
+    background-color: black;
+    
+
+}
